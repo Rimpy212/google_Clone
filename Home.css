@@ -1,0 +1,44 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* background-color: cadetblue; */
+}
+.home_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+.home_header a{
+    margin-right: 30px;
+    text-decoration: inherit;
+    color: rgb(0, 0, 0.87);
+}
+.home_header a:hover{
+    text-decoration: underline;
+}
+.home_headerRight{
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+    /* margin: 10px; */
+}
+
+/* (MuiSvgIcon is the class name which material ui gives to every) */
+
+.home_headerRight > .MuiSvgIcon-root{      
+    margin-right: 20px;
+}
+
+.home_body{
+    flex: 1;
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+}
+.home_body >img{
+    object-fit: contain;
+    height: 200px;
+}
